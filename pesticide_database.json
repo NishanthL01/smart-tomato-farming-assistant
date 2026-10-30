@@ -1,0 +1,178 @@
+
+{
+  "Early_blight": {
+    "disease_name": "Tomato Early Blight",
+    "natural_options": [
+      {
+        "name": "Neem-based product",
+        "ta_name": "வேம்பு சார்ந்த தயாரிப்பு",
+        "type": "Natural",
+        "use": "May help with certain insect pests, but it is not a proven cure for early blight.",
+        "verified": false
+      },
+      {
+        "name": "Crop sanitation",
+        "ta_name": "பாதிக்கப்பட்ட இலைகளை அகற்றுதல்",
+        "type": "Preventive",
+        "use": "Remove badly affected leaves when appropriate, avoid wet foliage where possible, and remove diseased plant debris.",
+        "verified": true
+      }
+    ],
+    "chemical_options": [
+      {
+        "name": "Azoxystrobin",
+        "type": "Fungicide",
+        "use": "Consider only a product labelled for tomato early blight in your area.",
+        "dose": null,
+        "verified": false
+      },
+      {
+        "name": "Mancozeb",
+        "type": "Fungicide",
+        "use": "Consider only if the exact product label permits this crop and disease use.",
+        "dose": null,
+        "verified": false
+      }
+    ]
+  },
+  "Late_blight": {
+    "disease_name": "Tomato Late Blight",
+    "natural_options": [
+      {
+        "name": "Crop sanitation and moisture management",
+        "ta_name": "சுகாதாரமான பயிர் பராமரிப்பு",
+        "type": "Preventive",
+        "use": "Avoid prolonged leaf wetness and seek prompt expert advice because late blight can spread rapidly.",
+        "verified": true
+      }
+    ],
+    "chemical_options": [],
+    "warning": "Get the diagnosis confirmed promptly. Use only a currently labelled treatment recommended for tomato late blight."
+  },
+  "Bacterial_spot": {
+    "disease_name": "Tomato Bacterial Spot",
+    "natural_options": [
+      {
+        "name": "Crop sanitation",
+        "ta_name": "பயிர் சுகாதாரம்",
+        "type": "Preventive",
+        "use": "Avoid handling wet plants, clean tools, and remove severely affected plant debris appropriately.",
+        "verified": true
+      }
+    ],
+    "chemical_options": [],
+    "warning": "Do not use a fungicide as though it were a cure for bacterial disease."
+  },
+  "Leaf_Mold": {
+    "disease_name": "Tomato Leaf Mold",
+    "natural_options": [
+      {
+        "name": "Improve airflow",
+        "ta_name": "காற்றோட்டத்தை மேம்படுத்துதல்",
+        "type": "Preventive",
+        "use": "Provide adequate spacing and ventilation and avoid prolonged leaf wetness.",
+        "verified": true
+      }
+    ],
+    "chemical_options": [],
+    "warning": "Confirm the diagnosis before selecting a fungicide."
+  },
+  "Septoria_leaf_spot": {
+    "disease_name": "Tomato Septoria Leaf Spot",
+    "natural_options": [
+      {
+        "name": "Crop sanitation",
+        "ta_name": "பயிர் சுகாதாரம்",
+        "type": "Preventive",
+        "use": "Remove affected plant debris, avoid overhead watering where possible, and rotate crops.",
+        "verified": true
+      }
+    ],
+    "chemical_options": [],
+    "warning": "Any chemical treatment must be labelled for this disease on tomato."
+  },
+  "Spider_mites Two-spotted_spider_mite": {
+    "disease_name": "Two-Spotted Spider Mite",
+    "natural_options": [
+      {
+        "name": "Neem-based product",
+        "ta_name": "வேம்பு சார்ந்த தயாரிப்பு",
+        "type": "Natural",
+        "use": "A labelled neem-based product may help manage mites. Follow its instructions and protect beneficial insects.",
+        "verified": false
+      },
+      {
+        "name": "Regular inspection",
+        "ta_name": "தொடர்ந்து இலைகளைப் பரிசோதித்தல்",
+        "type": "Preventive",
+        "use": "Inspect leaf undersides and confirm mites before choosing a treatment.",
+        "verified": true
+      }
+    ],
+    "chemical_options": [],
+    "warning": "Use a product specifically labelled for spider mites on tomato if chemical treatment is needed."
+  },
+  "Target_Spot": {
+    "disease_name": "Tomato Target Spot",
+    "natural_options": [
+      {
+        "name": "Crop sanitation and airflow",
+        "ta_name": "பயிர் சுகாதாரம் மற்றும் காற்றோட்டம்",
+        "type": "Preventive",
+        "use": "Remove diseased debris and improve airflow around plants.",
+        "verified": true
+      }
+    ],
+    "chemical_options": [],
+    "warning": "Confirm the disease and check the exact product label before using a fungicide."
+  },
+  "Tomato_Yellow_Leaf_Curl_Virus": {
+    "disease_name": "Tomato Yellow Leaf Curl Virus",
+    "natural_options": [
+      {
+        "name": "Yellow sticky traps",
+        "ta_name": "மஞ்சள் ஒட்டுப் பொறிகள்",
+        "type": "Physical control",
+        "use": "Monitor and catch some whiteflies. Traps alone may not prevent virus transmission.",
+        "verified": true
+      },
+      {
+        "name": "Remove infected plants appropriately",
+        "ta_name": "பாதிக்கப்பட்ட செடிகளை முறையாக அகற்றுதல்",
+        "type": "Preventive",
+        "use": "Confirm infection and follow local agricultural advice to reduce spread.",
+        "verified": true
+      }
+    ],
+    "chemical_options": [],
+    "warning": "No pesticide cures the virus inside the plant. Focus on prevention and whitefly management."
+  },
+  "Tomato_mosaic_virus": {
+    "disease_name": "Tomato Mosaic Virus",
+    "natural_options": [
+      {
+        "name": "Tool hygiene",
+        "ta_name": "கருவிகளைச் சுத்தமாக வைத்தல்",
+        "type": "Preventive",
+        "use": "Clean tools and hands after handling infected plants, and follow local guidance for infected plants.",
+        "verified": true
+      }
+    ],
+    "chemical_options": [],
+    "warning": "No pesticide cures the virus inside the plant."
+  },
+  "healthy": {
+    "disease_name": "Healthy Tomato Leaf",
+    "natural_options": [
+      {
+        "name": "Routine monitoring",
+        "ta_name": "தொடர்ந்து பயிரைப் பரிசோதித்தல்",
+        "type": "Preventive",
+        "use": "Inspect leaves regularly and maintain appropriate watering and plant spacing.",
+        "verified": true
+      }
+    ],
+    "chemical_options": [],
+    "warning": "No disease-specific pesticide is indicated."
+  }
+}
